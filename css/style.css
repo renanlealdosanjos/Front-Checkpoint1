@@ -1,0 +1,366 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.FaixaHeader{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    height: 30vh;
+    width: 100vw;
+    background: #C4C4C4;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.LogoHeader{
+    background-image: url("../img/BrasãoNiterói.jpg");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:white;
+
+    border: 1px solid #000000;
+    border-radius: 36px;
+    
+    margin-left: 0px;
+    
+    padding-top: 5vh;
+
+    height: 20vh;
+    width: 20vw;
+}
+
+.MenuSuperior{
+    display:flex;
+    justify-content: space-evenly;
+
+    width: 60vw;
+}
+
+.ItemNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 36px;
+    width: 15vw;
+    height: 10vh;
+
+    font-family: 'Calibri';
+    font-size: 2vw;
+    font-weight:400;
+    color: #000000;
+    text-decoration: none;
+}
+
+.CaixaMain{
+    display: flex;
+    justify-items: center;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+.Faixa1Main{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    background-image: url("../img/Background.jpg");
+    width: 100vw;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.Info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: white;
+    font-family: "Arial";
+    font-size: 1.2rem;
+
+    text-align: justify;
+
+    width: 40vw;
+    padding: 3vw;
+    margin-right: 3vw;
+
+}
+
+.Negrito{
+    font-weight: bold;
+}
+
+.Faixa2Main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.Titulo{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5vw;
+    margin-top: 10vh;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.CaixaFotos{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    padding-top: 5vh;
+    padding-bottom:5vh;
+}
+
+.Foto1{
+    background-image: url("../img/retrato1.jpg");
+    background-size: cover;
+    border-radius: 31px;
+    height: 70vh;
+    width:30vw;
+
+}
+
+.Foto2{
+    background-image: url("../img/retrato2.jpg");
+    background-size: cover;
+    border-radius: 31px;
+    height: 70vh;
+    width:30vw;
+
+}
+
+.Foto3{
+    background-image: url("../img/retrato3.jpg");
+    background-size: cover;
+    border-radius: 31px;
+    height: 70vh;
+    width:30vw;
+}
+
+.CaixaVideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding:40px;
+}
+
+.FaixaFooter{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #C4C4C4;
+}
+
+.TituloRodape{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+
+    width: 100vw;
+    padding-left: 5vw;
+    margin-top: 5vh;
+
+}
+
+.CaixaItens{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50vw;
+    margin-bottom: 80px;
+}
+
+.Item1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width:20vw;
+}
+
+.LogoLinkedIn{
+    background-image: url("../img/Logo\ Linkedin.png");
+    background-size: cover;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 100%;
+}
+
+.TextoLinkedIn{
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    width: 20vw;
+}
+
+.Item2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width:20vw;
+}
+
+.LogoGitHub{
+    background-image: url("../img/Logo\ GitHub.png");
+    background-size: cover;
+    background-size: cover;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 100%;
+}
+
+.TextoGitHub{
+    display: flex;
+    justify-content: center;
+
+    width: 20vw;
+}
+
+a{
+    color: black;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+@media(max-width: 460px){
+
+    .FaixaHeader{
+        height: auto;
+        width: 100vh;
+        padding-top:4vh;
+        padding-bottom: 2vh;
+    }
+
+    .LogoHeader{
+        width: 60vw;
+        margin-bottom: 2vh;
+    }
+
+    .MenuSuperior{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 50vw;
+
+    }
+
+    .ItemNav{
+        width: 50vw;
+        height: 6vh;
+        font-size: 1.5rem;
+        margin-bottom: 2vh;
+    }
+
+    .Faixa1Main{
+        display: none;
+    }
+
+    .Titulo{
+        width: 100vw;
+        margin-top: 5vh;
+        font-size: 1.8rem;
+        padding-left: 10vw;
+    }
+
+    .CaixaFotos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Foto1{
+        width: 80vw;
+        height: 60vh;
+
+        margin-bottom: 3vh;
+    }
+
+    .Foto2{
+        width: 80vw;
+        height: 60vh;
+
+        margin-bottom: 3vh;
+    }
+
+    .Foto3{
+        width: 80vw;
+        height: 60vh;
+    }
+
+    .TituloRodape{
+        padding-left: 10vw;
+        margin-top: 5vh;
+    }
+
+    .CaixaItens{
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: flex-end;
+
+        width: 50%;
+
+        padding-top: 5vh;
+    }
+
+    .Item1{
+        width: 30vw;
+        height: 20vh;
+        margin-bottom: 3vh;
+    }
+
+    .LogoLinkedIn{
+        height: 12vh;
+        width: 12vh;
+    }
+
+    .Item2{
+        width: 30vw;
+        height: 20vh;
+    }
+
+    .LogoGitHub{
+        height: 12vh;
+        width: 12vh;
+    }
+}
